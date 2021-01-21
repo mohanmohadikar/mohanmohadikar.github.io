@@ -367,7 +367,7 @@ ul {
     margin: 0 auto;
     margin-bottom: 15px;
     object-fit: cover;
-    border-radius: 50%;
+    border-radius: 15px;
 }
 
 .profile_badge {
