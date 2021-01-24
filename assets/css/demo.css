@@ -185,7 +185,8 @@ body {
 {
     color: #f0f0f0;
     font-family: 'Jost', sans-serif;
-
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
 
 .icon
@@ -363,30 +364,17 @@ ul {
 }
 
 .img-dp {
-    width: 50%;
-    margin: 0 auto;
+    width: 100%;
     margin-bottom: 15px;
     object-fit: cover;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 15px;
+    margin-top: 10px;
 }
 
-.profile_badge {
-    width: 40px;
-    height:40px;
-    border-radius: 50px;
-    background-color: white;
-    color: rgb(253, 135, 204);
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    top: -70px;
-    left: 65%;
-}
 
-.profile_badge i {
-    font-size: 22px;
-}
 
 .highlight_text {
     font-weight: 400;
@@ -529,3 +517,23 @@ ul {
   .notes_text:hover {
       color: rgb(37, 139, 255);
   }
+
+  .wave {
+    animation-name: wave-animation;  /* Refers to the name of your @keyframes element below */
+    animation-duration: 2.5s;        /* Change to speed up or slow down */
+    animation-iteration-count: infinite;  /* Never stop waving :) */
+    transform-origin: 70% 70%;       /* Pivot around the bottom-left palm */
+    display: inline-block;
+  }
+  
+  @keyframes wave-animation {
+      0% { transform: rotate( 0.0deg) }
+     10% { transform: rotate(14.0deg) }  /* The following five values can be played with to make the waving more or less extreme */
+     20% { transform: rotate(-8.0deg) }
+     30% { transform: rotate(14.0deg) }
+     40% { transform: rotate(-4.0deg) }
+     50% { transform: rotate(10.0deg) }
+     60% { transform: rotate( 0.0deg) }  /* Reset for the last half to pause */
+    100% { transform: rotate( 0.0deg) }
+  }
+  
