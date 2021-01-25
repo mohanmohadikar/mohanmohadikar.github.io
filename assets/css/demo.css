@@ -544,3 +544,72 @@ ul {
     100% { transform: rotate( 0.0deg) }
   }
   
+.red-focus{
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 0, 0, 0.5);
+}
+.red-focus:hover {
+    text-decoration: none;
+    background:rgba(255, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+.green-focus{
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 255, 0, 0.5);
+}
+.green-focus:hover {
+    text-decoration: none;
+    background:rgba(0, 255, 0, 0.15);
+    border-radius: 5px;
+}
+
+.blue-focus{
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 0, 255, 0.5);
+}
+.blue-focus:hover {
+    text-decoration: none;
+    background:rgba(0, 0, 255, 0.15);
+    border-radius: 5px;
+}
+
+.yellow-focus{
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 0, 0.5);
+}
+.yellow-focus:hover {
+    text-decoration: none;
+    background:rgba(255, 255, 0, 0.15);
+    border-radius: 5px;
+}
+
+.violet-focus{
+    text-decoration: underline;
+    text-decoration-color: rgba(162, 0, 255, 0.5);
+}
+.violet-focus:hover {
+    text-decoration: none;
+    background:rgba(162, 0, 255, 0.15);
+    border-radius: 5px;
+}
+
+.lblue-focus{
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 110, 255, 0.5);
+}
+.lblue-focus:hover {
+    text-decoration: none;
+    background:rgba(0, 110, 255, 0.15);
+    border-radius: 5px;
+}
+
+.lblue-focus{
+    text-decoration: underline;
+    text-decoration-color: rgba(0, 110, 255, 0.5);
+}
+.lblue-focus:hover {
+    text-decoration: none;
+    background:rgba(0, 110, 255, 0.15);
+    border-radius: 5px;
+}

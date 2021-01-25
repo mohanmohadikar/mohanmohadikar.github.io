@@ -4078,6 +4078,7 @@ tbody.collapse.show {
 
 .nav-link {
     display: block;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 0.5rem 1.5rem 0.5rem 0.5rem;
     border-bottom: 2px solid transparent;
     border-radius: 0px;
@@ -4085,7 +4086,8 @@ tbody.collapse.show {
 
 .nav-link:hover,
 .nav-link:focus {
-    text-decoration: none;
+    background:rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
 }
 
 .navbar-translate .nav-link:hover {
@@ -14193,7 +14195,7 @@ textarea {
     padding: 0.625rem 0;
     margin-bottom: 20px;
     color: #f0f0f0;
-    background-color: rgba(6, 13, 27, 0.6) !important;
+    background-color: rgba(6, 13, 27, 0.99) !important;
     backdrop-filter: blur(8px);
     box-shadow: 0 4px 18px 0px rgba(0, 0, 0, 0.12), 0 7px 10px -5px rgba(0, 0, 0, 0.15);
 }
