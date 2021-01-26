@@ -643,5 +643,5 @@ if it's not present, don't show loader */
 	height: 100%;
     z-index: 1000000;
     background-color: rgb(0, 102, 255, 0.5);
-	background: url(../img/kit/preloader.gif) center no-repeat #000;
+	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
 }
