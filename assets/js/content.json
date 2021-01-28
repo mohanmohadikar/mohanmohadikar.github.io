@@ -21,45 +21,10 @@
     ],
     "blogs": [
         {
-            "blog_title": "Difference between AI, Machine Learning, NLP and Deep Learning.👾",
-            "blog_description": "Most people often get confused with these terms since they are all interrelated. However, let me give my best shot and explain it with the simplest definition.",
-            "blog_link": "https://mohanmohadikar.medium.com/difference-between-ai-machine-learning-nlp-and-deep-learning-9f63066087f1",
-            "blog_date": "Jan 25, 2021",
-            "blog_tag": "new"
-        },
-        {
-            "blog_title": "Difference between AI, Machine Learning, NLP and Deep Learning.👾",
-            "blog_description": "Most people often get confused with these terms since they are all interrelated. However, let me give my best shot and explain it with the simplest definition.",
-            "blog_link": "https://mohanmohadikar.medium.com/difference-between-ai-machine-learning-nlp-and-deep-learning-9f63066087f1",
-            "blog_date": "Jan 25, 2021",
-            "blog_tag": "new"
-        },
-        {
-            "blog_title": "Difference between AI, Machine Learning, NLP and Deep Learning.👾",
-            "blog_description": "Most people often get confused with these terms since they are all interrelated. However, let me give my best shot and explain it with the simplest definition.",
-            "blog_link": "https://mohanmohadikar.medium.com/difference-between-ai-machine-learning-nlp-and-deep-learning-9f63066087f1",
-            "blog_date": "Jan 25, 2021",
-            "blog_tag": "new"
-        },
-        {
-            "blog_title": "Difference between AI, Machine Learning, NLP and Deep Learning.👾",
-            "blog_description": "Most people often get confused with these terms since they are all interrelated. However, let me give my best shot and explain it with the simplest definition.",
-            "blog_link": "https://mohanmohadikar.medium.com/difference-between-ai-machine-learning-nlp-and-deep-learning-9f63066087f1",
-            "blog_date": "Jan 25, 2021",
-            "blog_tag": "new"
-        },
-        {
-            "blog_title": "Difference between AI, Machine Learning, NLP and Deep Learning.👾",
-            "blog_description": "Most people often get confused with these terms since they are all interrelated. However, let me give my best shot and explain it with the simplest definition.",
-            "blog_link": "https://mohanmohadikar.medium.com/difference-between-ai-machine-learning-nlp-and-deep-learning-9f63066087f1",
-            "blog_date": "Jan 25, 2021",
-            "blog_tag": "new"
-        },
-        {
-            "blog_title": "Difference between AI, Machine Learning, NLP and Deep Learning.👾",
-            "blog_description": "Most people often get confused with these terms since they are all interrelated. However, let me give my best shot and explain it with the simplest definition.",
-            "blog_link": "https://mohanmohadikar.medium.com/difference-between-ai-machine-learning-nlp-and-deep-learning-9f63066087f1",
-            "blog_date": "Jan 25, 2021",
+            "blog_title": "Being a Good Software Developer. 👍",
+            "blog_description": "There are few steps which you can follow to be a good software developer, but at the end of the day it’s all about practice and continuously upgrading your knowledge as software industry is one of the fast moving industry",
+            "blog_link": "https://mohanmohadikar.medium.com/being-a-good-software-developer-4aaff872e5e5",
+            "blog_date": "Jan 29, 2021",
             "blog_tag": "new"
         },
         {
@@ -69,5 +34,7 @@
             "blog_date": "Jan 25, 2021",
             "blog_tag": "new"
         }
+        
+        
     ]
 }
