@@ -645,3 +645,90 @@ if it's not present, don't show loader */
     background-color: rgb(0, 102, 255, 0.5);
 	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
 }
+
+li{ 
+    display: inline-block; 
+    margin: 5px;
+}
+
+.skill-ul{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.red-skill{
+    border: 1px solid rgba(255, 58, 58, 0.685);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+}
+.red-skill:hover {
+    background-color: rgba(255, 58, 58, 0.685);
+}
+
+.green-skill{
+    border: 1px solid rgba(119, 175, 14, 0.63);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+}
+.green-skill:hover {
+    background-color: rgba(119, 175, 14, 0.63);
+}
+
+
+.yellow-skill{
+    border: 1px solid rgba(255, 187, 0, 0.705);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+}
+.yellow-skill:hover {
+    background-color: rgba(255, 187, 0, 0.705);
+}
+
+.blue-skill{
+    border: 1px solid rgba(33, 129, 255, 0.705);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+}
+.blue-skill:hover {
+    background-color: rgba(33, 129, 255, 0.705);
+}
+
+.lgreen-skill{
+    border: 1px solid rgba(83, 255, 126, 0.705);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+}
+.lgreen-skill:hover {
+    background-color: rgba(83, 255, 126, 0.705);
+}
+
+.violet-skill{
+    border: 1px solid rgba(200, 83, 255, 0.705);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+}
+.violet-skill:hover {
+    background-color: rgba(200, 83, 255, 0.705);
+}
+
+.pink-skill{
+    border: 1px solid rgba(253, 43, 130, 0.705);
+    border-radius: 5px;
+    width: fit-content;
+    padding: 5px;
+}
+.pink-skill:hover {
+    background-color: rgba(253, 43, 130, 0.705);
+}
+
+
+.skills{
+    margin-left: -18px;
+}
+
