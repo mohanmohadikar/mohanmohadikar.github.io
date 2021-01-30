@@ -31,7 +31,7 @@ function renderData(data) {
 function render_at_home(data) {
 
     var blog_html = '';
-    for(var i=0; i<4; i++) {
+    for(var i=0; i<2; i++) {
         blog_html += "<li> <a target='blank' href='"+ data.blogs[i].blog_link +"' class='nav-link'> <span><b>"+ data.blogs[i].blog_title +"</b></span> <span class='go_right blog_"+ data.blogs[i].blog_tag +"'><b>"+ data.blogs[i].blog_date +"</b></span> <p><b>"+ data.blogs[i].blog_description +"</b></p> </a> </li>";
     }
 
