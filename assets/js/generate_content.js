@@ -1,6 +1,6 @@
 function callpage() {
     var xmlhttp = new XMLHttpRequest();
-    var url = "assets/js/content.json";
+    var url = "https://raw.githubusercontent.com/mohanmohadikar/mohanmohadikar.github.io/master/assets/js/content.json";
 
     xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
@@ -23,9 +23,8 @@ function renderData(data) {
         case 'blogpage' :
             render_at_blog(data.blogs);
         break;
-        case 'talkpage' :
-            render_at_talks(data.talks);
-        break;
+        
+        
     }
 }
 
@@ -40,12 +39,6 @@ function render_at_home(data) {
 
     
     
-    var talk_html = '';
-    for(var i=0; i<4; i++) {
-        talk_html += "<li> <a target='blank' href='"+ data.talks[i].talk_link +"' class='nav-link'> <span><b>"+ data.talks[i].talk_name +"</b></span><p><b>"+ data.talks[i].talk_venue +"</b></p> </a> </li>";
-    }
-
-    document.getElementById("talk_list").innerHTML = talk_html;
 
 
    
@@ -79,17 +72,7 @@ function render_at_blog(data) {
     document.getElementById("blog_list").innerHTML = blog_html;
 }
 
-function render_at_talks(data) {
-     
-    var talk_html = '';
-    for(var i=0; i<data.length; i++) {
-        talk_html += "<li> <a target='blank' href='"+ data[i].talk_link +"' class='nav-link'> <span><b>"+ data[i].talk_name +"</b></span> <p><b>"+ data[i].talk_venue +"</b></p> </a> </li>";
-    }
 
-    document.getElementById("talk_list").innerHTML = talk_html;
-
-
-}
 
 
 
