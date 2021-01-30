@@ -621,6 +621,9 @@ ul {
     margin-bottom: 70px;
     margin-top: -30px;
 }
+.footer_gif:hover{
+    width: 170px;
+}
 
 .blogs-gif{
     display: block;
@@ -628,6 +631,9 @@ ul {
     width: 120px;
     margin-bottom: 10px;
     margin-top: 1px;
+}
+.blogs-gif:hover{
+    width: 200px;
 }
 
 /* Paste this css to your style sheet file or under head tag */
