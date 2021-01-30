@@ -627,7 +627,7 @@ ul {
     margin: auto;
     width: 120px;
     margin-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 1px;
 }
 
 /* Paste this css to your style sheet file or under head tag */
@@ -857,3 +857,28 @@ li{
     left: 0%;
     }
   }
+
+.project-img{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.project-heading{
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.project-text{
+    margin-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-bottom: 1px;
+}
