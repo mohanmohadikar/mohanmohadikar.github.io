@@ -1,7 +1,7 @@
 function callpage() {
     var xmlhttp = new XMLHttpRequest();
     var url = "https://raw.githubusercontent.com/mohanmohadikar/mohanmohadikar.github.io/master/assets/js/content.json";
-
+  //  https://raw.githubusercontent.com/mohanmohadikar/mohanmohadikar.github.io/master/assets/js/content.json
     xmlhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200) {
         var myData = JSON.parse(this.responseText);

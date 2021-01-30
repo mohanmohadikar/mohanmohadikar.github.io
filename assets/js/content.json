@@ -8,7 +8,7 @@
         },
         {
             "project_name" : "Raksha - A security and SOS app",
-            "project_description" : "A single click on this app identifies the location of the user through GPS and sends a message containing the location to the registered contacts and also a call to the first "112" which is an emergency number to help the one in a dangerous situation.",
+            "project_description" : "A single click on this app identifies the location of the user through GPS and sends a message containing the location to the registered contacts and also a call to the first 112 which is an emergency number to help the one in a dangerous situation.",
             "project_thumbnail" : "./assets/img/kit/rakshalogo.png",
             "project_link" : "https://play.google.com/store/apps/details?id=com.mohan.raksha"
         },
