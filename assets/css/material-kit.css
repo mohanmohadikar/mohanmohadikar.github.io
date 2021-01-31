@@ -28,6 +28,7 @@ a i {
 html {
     font-family: sans-serif;
     line-height: 1.15;
+    background: rgba(6, 13, 27, 0.99);
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -ms-overflow-style: scrollbar;
@@ -60,7 +61,7 @@ body {
     line-height: 1.5;
     color: #f0f0f0;
     text-align: left;
-    background-color: #0a0b0f;
+    background-color: rgba(6, 13, 27, 0.99);
 }
 
 [tabindex="-1"]:focus {

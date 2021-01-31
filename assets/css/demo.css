@@ -1,8 +1,13 @@
 /* ==========================================================================
 Header
+rgba(6, 13, 27, 0.99)
 ========================================================================== */
+html{
+    background-color: rgba(6, 13, 27, 0.99);
+}
 body{
     y-overflow:hidden;
+    background-color: rgba(6, 13, 27, 0.99);
 }
 #social_link
 {
@@ -58,6 +63,7 @@ body {
     margin-left: 0px;
     margin-top: -80px;
     right: 0;
+    background-color: rgba(6, 13, 27, 0.99);
 }
 
 .tag_title,
@@ -887,4 +893,86 @@ li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     margin-bottom: 1px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #0a1327;
+    caret-color: #ffffff;
+  }
+#cname{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #0a1327;
+    caret-color: #ffffff;
+}
+#cemail{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #0a1327;
+    caret-color: #ffffff;
+}
+
+  textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #0a1327;
+    caret-color: #ffffff;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(73, 115, 255);
+    caret-color: #ffffff;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(51, 99, 255);
+  }
+  
+  .contact-form-div {
+    padding: 10%;
+    background-color: #0a1327;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+.inti{
+    background-color: #4CAF50;
+    margin-bottom: -70px;
+}
+
+.page-footer{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    font-family: Arial, Helvetica, sans-serif;
 }
