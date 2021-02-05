@@ -906,41 +906,81 @@ input[type=text]{
     caret-color: #ffffff;
     color: white;
   }
+
+#contact-label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+
 #cname{
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px 10px 10px 10px;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 0.001px solid rgba(255, 255, 255, 0.301);
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: #0a1327;
+    background-color: rgba(6, 13, 27, 0.99);
     caret-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 570;
     color: white;
 }
 #cemail{
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px 10px 10px 10px;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 0.001px solid rgba(255, 255, 255, 0.301);
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: #0a1327;
+    background-color: rgba(6, 13, 27, 0.99);
     caret-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 570;
+    color: white;
+}
+
+#cmessage{
+    width: 100%;
+    height: 500px;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    border: 0.001px solid rgba(255, 255, 255, 0.301);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(6, 13, 27, 0.99);
+    caret-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 570;
+    color: white;
+}
+
+#csubject{
+    width: 100%;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+    border: 0.001px solid rgba(255, 255, 255, 0.301);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: rgba(6, 13, 27, 0.99);
+    caret-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 570;
     color: white;
 }
 
   textarea{
     width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    padding: 10px 10px 10px 10px;
     display: inline-block;
-    border: 1px solid #ccc;
+    border: 0.001px solid rgba(255, 255, 255, 0.301);
     border-radius: 4px;
     box-sizing: border-box;
-    background-color: #0a1327;
+    background-color: rgba(6, 13, 27, 0.99);
     caret-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 570;
     color: white;
   }
   
@@ -958,15 +998,37 @@ input[type=text]{
   }
   
   input[type=submit]:hover {
-    background-color: rgb(51, 99, 255);
+    background-color: rgb(54, 90, 209);
   }
-  
-  .contact-form-div {
-    padding: 10%;
+
+#cname:focus { 
+    border: 3px solid rgb(0, 111, 230);
+}
+#cemail:focus { 
+    border: 3px solid rgb(0, 111, 230);
+}
+#csubject:focus { 
+    border: 3px solid rgb(0, 111, 230);
+}
+#cmessage:focus { 
+    border: 3px solid rgb(0, 111, 230);
+}
+.contact-form-div {
+    padding: 0%;
+    margin: auto;
     background-color: rgba(6, 13, 27, 0.99);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
   }
+  
+.contact-form {
+    padding: 1%; 
+    width: 70%;
+    margin: auto;
+    background-color: rgba(6, 13, 27, 0.99);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
 
 .inti{
     background-color: #4CAF50;
@@ -1009,4 +1071,17 @@ input[type=text]{
 .horizontal-line{
     background-color: #9e9e9e11;
     height: 1px;
+}
+
+
+#contact-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 530;
+    
+}
+
+.submit-contact-button{
+    font-family: sans-serif;
+    font-size: larger;
+    font-weight: 500;
 }

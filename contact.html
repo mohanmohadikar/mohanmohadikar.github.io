@@ -45,7 +45,7 @@
     <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg " color-on-scroll="40" id="sectionsNav">
         <div class="container">
             <div class="navbar-translate" style="height:70px;">
-                <a class="navbar-brand" href="#introduction-me"><p class="description" style="font-size: 23px; color:rgb(57, 125, 228); padding:4px 2px; background-color:rgba(12, 80, 182,0.15); border-radius:8px; width:195px; margin-top: 7px; padding-left:10px; padding-right: 10px;">Mohan Mohadikar</p></a>
+                <a class="navbar-brand" href="./index.html"><p class="description" style="font-size: 23px; color:rgb(57, 125, 228); padding:4px 2px; background-color:rgba(12, 80, 182,0.15); border-radius:8px; width:195px; margin-top: 7px; padding-left:10px; padding-right: 10px;">Mohan Mohadikar</p></a>
                 <button style="color:white" class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                     <span class="navbar-toggler-icon"></span>
@@ -56,7 +56,7 @@
                 <ul class="navbar-nav ml-auto">
                     <li class="dropdown nav-item">
                         <a href="#work" data-page="index" class="nav-link">
-                            <span><b>🖥️&nbspWork</b></span>
+                            <span><b>🧑🏻‍💼&nbspWork</b></span>
                         </a>
                     </li>
                      <li class="nav-item">
@@ -71,7 +71,7 @@
                     </li>
                     <li class="nav-item">
                         <a href="./contact.html" data-page="team" class="nav-link">
-                            <span><b id="header_text">✍🏻&nbspContact</b></span>
+                            <span><b id="header_text">📮&nbspContact</b></span>
                         </a>
                     </li>
                    
@@ -79,26 +79,37 @@
             </div>
         </div>
     </nav>
+
+    
     
     
     
     <div class="contact-form-div" style="margin-top: 70px;">
+        <div class="contact-form contact-container">
+            <h2 id="contact-heading">📮 Contact</h2>
+        </div>
         <form class="contact-form" action="https://postmail.invotes.com/send"
             method="post" id="email_form">
 
-            <label for="cname">Your Name</label><br>
-            <input type="text" id="cname" name="extra_name" placeholder="John Doe" />
-
-
-                        <!-- set the reply-to address -->
-            <label for="cemail">Your Email</label><br>
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+                <label id="contact-label" for="cname">Your Name</label><br>
+                <input type="text" id="cname" name="extra_name" placeholder="John Doe" />
+            </div>
+            <div class="col-lg-6 col-md-6">
+                                        <!-- set the reply-to address -->
+            <label id="contact-label" for="cemail">Your Email</label><br>
             <input type="text" id="cemail"  name="reply_to"
                         placeholder="john.doe@email.com" />
+            </div>
+          </div>
 
-            <label for="csubject">Subject</label><br>
+       
+
+            <label id="contact-label" for="csubject">Subject</label><br>
             <input type="text" id="csubject" name="subject" placeholder="Let's work together!" />
 
-            <label for="cmessage">Message</label><br>
+            <label id="contact-label" for="cmessage">Message</label><br>
             <textarea name="text" id="cmessage" placeholder="Hi Mohan..."></textarea>
 
 
@@ -120,7 +131,12 @@
             <!-- <input type="hidden"
                         name="sms_format" value="true" /> -->
         
-            <input id="submit_form" type="submit" value="Send" />
+            
+            <div class="row">
+                <div class="col-lg-2 col-md-3">
+                    <input class="submit-contact-button" id="submit_form" type="submit" value="Send"/>
+                </div>
+              </div>
             <!-- not required, but we'd appreciate it if you'd link to us somewhere on your site -->
         </form>
             
@@ -132,7 +148,10 @@
                 setTimeout(function() {
                     submitButton.value = "Sending...";
                     submitButton.disabled = true;
-                }, 1);
+                }, 2);
+                submitButton.value = "Send";
+                submitButton.disabled = false;
+                
             });
         </script> 
     </div>
