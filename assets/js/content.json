@@ -2,21 +2,24 @@
     "projects": [
         {
             "project_name" : "Waste Segregation",
-            "project_description" : "This app will help them in segregating the waste materials, also make the segregation of material little less time consuming.",
+            "project_description" : "This app helps user the segregation of material little less time consuming.",
             "project_thumbnail" : "./assets/img/kit/waste.png",
-            "project_link" : "https://play.google.com/store/apps/details?id=com.mohanmohadikar.wastesegregation"
+            "project_link" : "https://play.google.com/store/apps/details?id=com.mohanmohadikar.wastesegregation",
+            "project_class" : "project-img-bg-0"
         },
         {
             "project_name" : "Raksha",
             "project_description" : "A single click on this app identifies the location of the user through GPS and notifies selected contacts.",
             "project_thumbnail" : "./assets/img/kit/rakshalogo.png",
-            "project_link" : "https://play.google.com/store/apps/details?id=com.mohan.raksha"
+            "project_link" : "https://play.google.com/store/apps/details?id=com.mohan.raksha",
+            "project_class" : "project-img-bg-1"
         },
         {
             "project_name" : "Numbers",
             "project_description" : "A Browser-based Number puzzle in which you need to arrange numbers 1 to 15 in grid in increasing order.",
             "project_thumbnail" : "./assets/img/kit/flash.png",
-            "project_link" : "https://mohanmohadikar.github.io/NUMBERS/"
+            "project_link" : "https://mohanmohadikar.github.io/NUMBERS/",
+            "project_class" : "project-img-bg-2"
         }
     ],
     "blogs": [

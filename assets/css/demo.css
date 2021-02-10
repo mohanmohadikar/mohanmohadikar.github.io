@@ -477,7 +477,7 @@ ul {
       font-weight: 600;
       font-family: 'Jost', sans-serif;
       padding: 6px 10px 6px 15px;
-      background-color: #0a0b0f;
+      background-color: rgba(6, 13, 27, 0.99);
       border-radius: 5px;
       transition: all 0.2s ease;
       cursor: pointer;
@@ -869,8 +869,32 @@ li{
     }
   }
 
+.project-card{
+    background: rgba(6, 13, 27, 0.99);
+    border: 0.001px solid rgba(255, 255, 255, 0.151);
+    border-radius: 10px;
+}
+
+.project-img-bg-0{
+    margin: 6px 6px 6px 6px;
+    background-image: linear-gradient(to right, rgb(255, 72, 0) , rgb(255, 0, 255));
+    border-radius: 8px;
+}
+.project-img-bg-1{
+    margin: 6px 6px 6px 6px;
+    background-image: linear-gradient(to right, rgb(255, 0, 0) , rgb(162, 0, 255));
+    border-radius: 8px;
+}
+.project-img-bg-2{
+    margin: 6px 6px 6px 6px;
+    background-image: linear-gradient(to right, rgb(255, 0, 0) , rgb(162, 0, 255));
+    border-radius: 8px;
+}
+
+
 .project-img{
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
     width: 18%;
     height: 18%;
     display: block;

@@ -47,7 +47,9 @@ function render_at_home(data) {
     for(var i=0; i<3; i++) {
         project_html += '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.2s"> \
                             <div class="card project-card" id="card"> \
+                            <div class="project-img-bg-0" id="project-img-bg-id"> \
                             <img class="img-fluid project-img" src="'+ data.projects[i].project_thumbnail +'"/> \
+                            </div> \
                             <div class="card_content"> <br/>\
                             <span class="project-heading"><b>'+ data.projects[i].project_name+'</b></span> \
                             <p class="project-text">'+ data.projects[i].project_description +'</p> \
@@ -55,6 +57,7 @@ function render_at_home(data) {
                             </div>  \
                             </div> \
                         </div>';
+                        
     }
 
     document.getElementById("project_list").innerHTML = project_html;
