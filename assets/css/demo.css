@@ -882,12 +882,12 @@ li{
 }
 .project-img-bg-1{
     margin: 6px 6px 6px 6px;
-    background-image: linear-gradient(to right, rgb(255, 0, 0) , rgb(162, 0, 255));
+    background-image: linear-gradient(to right, rgb(0, 102, 255) , rgb(0, 238, 255));
     border-radius: 8px;
 }
 .project-img-bg-2{
     margin: 6px 6px 6px 6px;
-    background-image: linear-gradient(to right, rgb(255, 0, 0) , rgb(162, 0, 255));
+    background-image: linear-gradient(to right, rgb(255, 238, 0) , rgb(0, 119, 255));
     border-radius: 8px;
 }
 

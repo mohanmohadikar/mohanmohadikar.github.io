@@ -47,7 +47,7 @@ function render_at_home(data) {
     for(var i=0; i<3; i++) {
         project_html += '<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 wow fadeIn" data-wow-delay="0.2s"> \
                             <div class="card project-card" id="card"> \
-                            <div class="project-img-bg-0" id="project-img-bg-id"> \
+                            <div class="'+ data.projects[i].project_class +'" id="project-img-bg-id"> \
                             <img class="img-fluid project-img" src="'+ data.projects[i].project_thumbnail +'"/> \
                             </div> \
                             <div class="card_content"> <br/>\

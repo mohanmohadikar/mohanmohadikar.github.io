@@ -2,7 +2,7 @@
     "projects": [
         {
             "project_name" : "Waste Segregation",
-            "project_description" : "This app helps user the segregation of material little less time consuming.",
+            "project_description" : "This app helps user in segregating the waste materials, also makes the process little less time consuming.",
             "project_thumbnail" : "./assets/img/kit/waste.png",
             "project_link" : "https://play.google.com/store/apps/details?id=com.mohanmohadikar.wastesegregation",
             "project_class" : "project-img-bg-0"
