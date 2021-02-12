@@ -417,10 +417,32 @@ ul {
     border: 1px solid red;
     border-radius: 50px; */
 }
-
 .social_list li:hover, .social_list li:active {
     color: rgb(253, 113, 196);
 }
+
+.footer-social{
+    width: 100%;
+}
+
+.footer-social-list {
+    list-style: none;
+    justify-content: center;
+  display: flex;
+}
+.footer-social-list li {
+    font-size: 27px;
+    color: rgb(37, 139, 255);
+    transition: all 0.3s ease;
+    /* padding: 5px;
+    border: 1px solid red;
+    border-radius: 50px; */
+}
+.footer-social-list li:hover, .footer-social-list li:active {
+    color: rgb(253, 113, 196);
+}
+
+
 
 
 @media (min-width: 320px) and (max-width: 480px) {
