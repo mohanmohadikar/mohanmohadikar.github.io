@@ -923,6 +923,12 @@ li{
     background-image: linear-gradient(to right, rgb(255, 238, 0) , rgb(0, 119, 255));
     border-radius: 8px;
 }
+.project-img-bg-3{
+    margin: 6px 6px 6px 6px;
+    background-image: linear-gradient(to right, rgb(0, 255, 170) , rgb(89, 0, 255));
+    border-radius: 8px;
+}
+
 .project-img-bg-0:hover{
     margin: 1px 1px 9px 1px;
     border-radius: 7px 7px 0px 0px;
@@ -932,6 +938,10 @@ li{
     border-radius: 7px 7px 0px 0px;
 }
 .project-img-bg-2:hover{
+    margin: 1px 1px 9px 1px;
+    border-radius: 7px 7px 0px 0px;
+}
+.project-img-bg-3:hover{
     margin: 1px 1px 9px 1px;
     border-radius: 7px 7px 0px 0px;
 }

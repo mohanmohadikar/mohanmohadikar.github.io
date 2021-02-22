@@ -8,18 +8,25 @@
             "project_class" : "project-img-bg-0"
         },
         {
+            "project_name" : "Spam-NotSpam",
+            "project_description" : "Flask web app to predict whether sms / message is spam or not based on machine learning (NLP).",
+            "project_thumbnail" : "./assets/img/kit/ai.png",
+            "project_link" : "https://spam-not-spam.herokuapp.com",
+            "project_class" : "project-img-bg-1"
+        },
+        {
             "project_name" : "Raksha",
             "project_description" : "A single click on this app identifies the location of the user through GPS and notifies selected contacts.",
             "project_thumbnail" : "./assets/img/kit/rakshalogo.png",
             "project_link" : "https://play.google.com/store/apps/details?id=com.mohan.raksha",
-            "project_class" : "project-img-bg-1"
+            "project_class" : "project-img-bg-2"
         },
         {
             "project_name" : "Numbers",
             "project_description" : "A Browser-based Number puzzle in which you need to arrange numbers 1 to 15 in grid in increasing order.",
             "project_thumbnail" : "./assets/img/kit/flash.png",
             "project_link" : "https://mohanmohadikar.github.io/NUMBERS/",
-            "project_class" : "project-img-bg-2"
+            "project_class" : "project-img-bg-3"
         }
     ],
     "blogs": [
